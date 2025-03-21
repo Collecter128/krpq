@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kuuga_growing",
+  "ingredients": [
+    {
+      "item": "kamenridercraft:kuuga_rising_growing"
+    },
+    {
+      "item": "kamenridercraft:kuuga_rising_growing"
+    },
+    {
+      "item": "kamenridercraft:kuuga_rising_growing"
+    },
+    {
+      "item": "kamenridercraft:kuuga_rising_growing"
+    }
+  ],
+  "result": {
+    "id": "kamenridercraft:kuuga_amazing_growing"
+  }
+}
