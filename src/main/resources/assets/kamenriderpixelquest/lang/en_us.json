@@ -11,5 +11,17 @@
   "item.kamenridercraft.kuuga_amazing_dragon": "Kuuga Amazing Dragon Amadam",
   "item.kamenridercraft.kuuga_amazing_pegasus": "Kuuga Amazing Pegasus Amadam",
   "item.kamenridercraft.kuuga_amazing_titan": "Kuuga Amazing Titan Amadam",
-  "item.kamenridercraft.kuuga_amazing_ultimate": "Kuuga Amazing Ultimate Amadam"
+  "item.kamenridercraft.kuuga_amazing_ultimate": "Kuuga Amazing Ultimate Amadam",
+
+    "kamenridercraft:kuuga_rising_growing.form": "Form: Rising Growing Form",
+    "kamenridercraft:kuuga_super_rising_growing.form": "Form: Super Rising Growing Form",
+    "kamenridercraft:kuuga_super_rising_mighty.form": "Form: Super Rising Mighty Form",
+    "kamenridercraft:kuuga_super_rising_dragon.form": "Form: Super Rising Dragon Form",
+    "kamenridercraft:kuuga_super_rising_pegasus.form": "Form: Super Rising Pegasus Form",
+    "kamenridercraft:kuuga_super_rising_titan.form": "Form: Super Rising Titan Form",
+    "kamenridercraft:kuuga_amazing_growing.form": "Form: Amazing Growing Form",
+    "kamenridercraft:kuuga_amazing_dragon.form": "Form: Amazing Dragon Form",
+    "kamenridercraft:kuuga_amazing_pegasus.form": "Form: Amazing Pegasus Form",
+    "kamenridercraft:kuuga_amazing_titan.form": "Form: Amazing Titan Form",
+    "kamenridercraft:kuuga_amazing_ultimate.form": "Form: Amazing Ultimate Form"
 }
