@@ -1,6 +1,7 @@
 {
   "itemGroup.kamenriderpixelquest": "Example Mod Tab",
   "block.kamenriderpixelquest.example_block": "Example Block",
+  "item.kamenridercraft.kuuga_laundry": "Kuuga Laundry Amadam",
   "item.kamenridercraft.kuuga_rising_growing": "Kuuga Rising Growing Amadam",
   "item.kamenridercraft.kuuga_super_rising_growing": "Kuuga Super Rising Growing Amadam",
   "item.kamenridercraft.kuuga_super_rising_mighty": "Kuuga Super Rising Mighty Amadam",
@@ -13,6 +14,7 @@
   "item.kamenridercraft.kuuga_amazing_titan": "Kuuga Amazing Titan Amadam",
   "item.kamenridercraft.kuuga_amazing_ultimate": "Kuuga Amazing Ultimate Amadam",
 
+    "kamenridercraft:kuuga_laundry.form": "Form: Laundry Form",
     "kamenridercraft:kuuga_rising_growing.form": "Form: Rising Growing Form",
     "kamenridercraft:kuuga_super_rising_growing.form": "Form: Super Rising Growing Form",
     "kamenridercraft:kuuga_super_rising_mighty.form": "Form: Super Rising Mighty Form",

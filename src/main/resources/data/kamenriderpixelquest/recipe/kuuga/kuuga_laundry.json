@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "kuuga_growing",
+  "ingredients": [
+    {
+      "item": "kamenridercraft:kuuga_growing"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "id": "kamenridercraft:kuuga_laundry"
+  }
+}
