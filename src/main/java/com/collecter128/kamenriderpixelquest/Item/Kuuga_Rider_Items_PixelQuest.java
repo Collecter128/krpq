@@ -17,7 +17,7 @@ public class Kuuga_Rider_Items_PixelQuest {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(KamenRiderCraftCore.MOD_ID);
 
     public static final DeferredItem<Item> KUUGA_LAUNDRY = ITEMS.register("kuuga_laundry",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"_laundry","kuuga","arcle_belt_r",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_laundry","kuuga","arcle_belt",
                     new MobEffectInstance(MobEffects.WEAKNESS, 40, 2,true,false))
                     .has_basic_model()
                     .AddToList(RiderTabs.KUUGA_TAB_ITEM));

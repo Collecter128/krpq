@@ -1,6 +1,13 @@
 package com.collecter128.kamenriderpixelquest;
 
+import com.collecter128.kamenriderpixelquest.Item.Ichigo_rider_items_edited;
 import com.collecter128.kamenriderpixelquest.Item.Kuuga_Rider_Items_PixelQuest;
+import com.kelco.kamenridercraft.KamenRiderCraftCore;
+import com.kelco.kamenridercraft.item.BaseItems.RiderFormChangeItem;
+import com.kelco.kamenridercraft.item.Ichigo_Rider_Items;
+import com.kelco.kamenridercraft.item.tabs.RiderTabs;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -56,6 +63,9 @@ public class KamenRiderPixelQuest {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+        //NeoForge.EVENT_BUS.unregister(Ichigo_Rider_Items.SAKURAJIMA_TYPHOON_CORE.get());
+        Ichigo_rider_items_edited.register(modEventBus);
+
         Kuuga_Rider_Items_PixelQuest.register(modEventBus);
 
         // Register the item to a creative tab
