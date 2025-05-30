@@ -1,6 +1,10 @@
 {
   "itemGroup.kamenriderpixelquest": "Example Mod Tab",
   "block.kamenriderpixelquest.example_block": "Example Block",
+  "item.kamenridercraft.alternative_original_typhoon_core": "Typhoon Core (Alternative Original)",
+
+    "kamenridercraft:alternative_original_typhoon_core.form": "Form: Alternative Original",
+
   "item.kamenridercraft.kuuga_laundry": "Kuuga Laundry Amadam",
   "item.kamenridercraft.kuuga_rising_growing": "Kuuga Rising Growing Amadam",
   "item.kamenridercraft.kuuga_super_rising_growing": "Kuuga Super Rising Growing Amadam",

@@ -18,11 +18,17 @@ public class Ichigo_rider_items_edited  {
 
     public static String[] Can_use_sakurajima_typhoon = new String[] {"ichigo","nigo","sango","yongo"};
 
-    public static final DeferredItem<Item> SAKURAJIMA_TYPHOON_CORE = ITEMS.register("sakurajima_typhoon_core",
-            () -> new RiderFormChangeItem(new Item.Properties(),0,"_sakurajima","ichigo","typhoon_belt_original",
+    public static final DeferredItem<Item> ALTERNATIVE_ORIGINAL_TYPHOON_CORE = ITEMS.register("alternative_original_typhoon_core",
+            () -> new RiderFormChangeItem(new Item.Properties(),0,"_alternative_original","ichigo","typhoon_belt_original",
                     new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
                     ,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
-                    .AddCompatibilityList(new String[] {"ichigo","nigo","sango","yongo"}).AddToList(RiderTabs.ICHIGO_TAB_ITEM));
+                    .AddCompatibilityList(new String[] {"ichigo","yongo"}).AddToList(RiderTabs.ICHIGO_TAB_ITEM));
+
+//    public static final DeferredItem<Item> SAKURAJIMA_TYPHOON_CORE = ITEMS.register("sakurajima_typhoon_core",
+//            () -> new RiderFormChangeItem(new Item.Properties(),0,"_sakurajima","ichigo","typhoon_belt_original",
+//                    new MobEffectInstance(MobEffects.DAMAGE_BOOST, 40, 1,true,false),new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 40, 1,true,false)
+//                    ,new MobEffectInstance(MobEffects.JUMP, 40, 2,true,false))
+//                    .AddCompatibilityList(new String[] {"ichigo","nigo","sango","yongo"}).AddToList(RiderTabs.ICHIGO_TAB_ITEM));
 
     public static void register(IEventBus eventBus) {
         //eventBus.unregister(Ichigo_Rider_Items.SAKURAJIMA_TYPHOON_CORE);

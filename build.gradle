@@ -131,7 +131,7 @@ dependencies {
     // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
 
 
-    implementation "curse.maven:kamen-rider-craft-306845:6361875"
+    implementation "curse.maven:kamen-rider-craft-306845:6539596"
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
     // The group id is ignored when searching -- in this case, it is "blank"
